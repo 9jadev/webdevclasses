@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+h1 {
+    color: #4a9110d2;
+    background-color: rgba(0, 255, 255, 0.253);
+    /* opac */
+}
+.king {
+    font-weight: bolder;
+}
+
+
+body {
+    background-color: rgb(26, 37, 41);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-abstract-polygonal-space-low-poly-dark-background-with-connecting-dots-and-image_337931.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+#board {
+    background: brown;
+    width: 200px;
+    height: 200px;
+    border: 2px dotted red;
+    /* border-top-left-radius: 100%; */
+    border-radius: 20px;
+    /* border-bottom-right-radius: 100%; */
+    margin: 25px 50px 75px 100px;
+    padding-left: 10px;
+    text-align: right;
+    line-height: 1.8;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+  ul {
+    list-style-position: outside;
+    list-style-type: simp-chinese-formal;
+  }
+
+  table, td , th {
+    border: 1px solid black;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
